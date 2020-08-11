@@ -17,7 +17,7 @@ Here's a quick example, adding the middleware to a Rails app in `config/initiali
 
 ```ruby
 Rails.application.config.middleware.use OmniAuth::Builder do
-  provider :shopify, ENV['API_KEY'], ENV['APP_SECRET']
+  provider :aliexpress, ENV['API_KEY'], ENV['APP_SECRET']
 end
 ```
 Authenticate the user by having them visit /auth/aliexpress. For example:
